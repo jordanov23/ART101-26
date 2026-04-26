@@ -1,19 +1,53 @@
-p { color : blue; font-size: large; }
+p {
+    color: blue;
+    font-size: large;
+    font-weight: bold;
+}
 
-li { text-align: center; }
+p strong {
+    font-weight: normal;
+}
 
-html { font-family: Sans-serif; background-color: pink; }
+li {
+    text-align: center;
+}
+
+html {
+    font-family: Sans-serif;
+    background-color: pink;
+}
 
 
 /* select all html tags that have a class highlight_01 */
-.highlight_01 {background-color:azure;}
+.highlight_01 {
+    background-color: azure;
+}
 
-.highlight_02 {background-color: orange;}
+.highlight_02 {
+    background-color: orange;
+}
 
-.highlight_03 {background-color: rgb(238, 255, 161);}
+.highlight_03 {
+    background-color: rgb(238, 255, 161);
+}
 
-.highlight_04 {background-color: deeppink;}
+#pink-huge {
+    width: 150px
+}
 
-#pink-huge { width: 150px}
-#pink-medium { width: 99px}
-#pink-small { width: 50px}
+#pink-medium {
+    width: 99px
+}
+
+#pink-small {
+    width: 50px
+}
+
+
+.test-div {
+    background: lemonchiffon;
+    margin: 30px;
+    padding: 40px;
+}
+
+.my-flex { display: flex;}
