@@ -1,8 +1,14 @@
-let count = 0;
-let colors = ["Orchid", "Coral", "HotPink", "Plum"]; 
+function askNumber(whatNumber) {
+    let userNumber = prompt("Guess 1-10?");
 
-$("#needy-button").click(function () { 
-   $("#needy-button").html( "Clicks: " + count + " Color: " + colors[count] );
-   $("body").css("background-color", colors[count]);
-   count = count + 1;
+    if (userNumber == whatNumber) {
+        $("#output").html("You got it!");
+    }
+    else {
+        $("#output").html("Noooooope");
+    }
+}
+
+$("#good-button").click(function () {
+    askNumber(5);
 });

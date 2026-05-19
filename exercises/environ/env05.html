@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<div>
+    <h1> You have washed ashore... <h1>
+        <img src="seagull.gif" class= "left">
+    </div>
+    <h2> and you see a stranger, seemingly looking for someone... </h2>
+    <div>
+        <img src="eric.png" class="right">
+    </div>
+        <div>
+        <p> You try to walk but can barely stand. Then he sees you and lends you his hand. He playfully asks you with a smile, "Is this your first time on land?" </p>
+        <img src="seashell.png" class="middle"
+        </div>
+<style>
+body {
+  background-image: url("beachsunset.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  .eric {
+    cursor: pointer;
+  }
+}
+</style>
+</head>
+<button id="good-button">Speak!</button>
+
+    <div id="output"></div>
+<body>
+<script>
+function myFunction() {
+  let person = prompt(What's your name?");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello there " + person + "! Are you alright?";
+  }
+}
+</script>
+<div id="environment-output"></div>
+    <head>
+    <meta charset="utf-8">
+    <title>Environment 05</title>
+    <link rel="stylesheet" href="env05.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="env05.js" defer></script>
+</head>
+</body>
+</html>
